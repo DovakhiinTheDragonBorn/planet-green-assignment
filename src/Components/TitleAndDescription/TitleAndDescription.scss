@@ -1,0 +1,27 @@
+.TitleAndDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 30%;
+}
+
+.Title {
+  text-align: left;
+  font: normal normal normal 40px/50px Qenbay;
+  letter-spacing: 0px;
+  color: #332017;
+  opacity: 1;
+}
+
+.Description {
+  text-align: left;
+  font: normal normal normal 20px/35px Roboto;
+  letter-spacing: 0px;
+  color: #836b5f;
+  opacity: 1;
+}
+
+.DottedLine {
+  border-bottom: dashed 1px #000000;
+  width: 100%;
+}

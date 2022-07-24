@@ -1,0 +1,21 @@
+.Header {
+  width: 90%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoImage {
+  height: 60%;
+  width: auto;
+}
+
+.horizontalLine {
+  width: 90%;
+  margin: 0;
+  padding: 0;
+  background: #332017;
+  height: 1px;
+}

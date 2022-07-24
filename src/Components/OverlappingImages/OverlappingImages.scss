@@ -1,0 +1,32 @@
+.OverlappingImages {
+  // padding: 100px 30px;
+  width: auto;
+  margin: 0 auto;
+  max-width: 900px;
+  height: 100%;
+}
+
+.imageStack {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.imageStackItemBottom {
+  grid-column: 4 / -1;
+  grid-row: 1;
+  z-index: 1;
+  transform: rotate(20deg);
+}
+
+.imageStackItemTop {
+  grid-row: 1;
+  grid-column: 1 / span 8;
+  padding-top: 20%;
+  transform: rotate(-20deg);
+}
+
+img {
+  width: 100%;
+  display: block;
+}
