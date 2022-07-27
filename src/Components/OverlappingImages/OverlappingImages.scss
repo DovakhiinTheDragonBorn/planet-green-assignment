@@ -12,17 +12,23 @@
   grid-template-columns: repeat(12, 1fr);
 }
 
-.imageStackItemBottom {
+.imageStackItemBottomDiv {
   grid-column: 4 / -1;
   grid-row: 1;
   z-index: 1;
+}
+
+.imageStackItemTopDiv {
+  grid-row: 1;
+  grid-column: 1 / span 8;
+  padding-top: 20%;
+}
+
+.imageStackItemBottom {
   transform: rotate(20deg);
 }
 
 .imageStackItemTop {
-  grid-row: 1;
-  grid-column: 1 / span 8;
-  padding-top: 20%;
   transform: rotate(-20deg);
 }
 

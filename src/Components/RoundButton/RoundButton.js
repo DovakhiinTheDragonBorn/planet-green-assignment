@@ -3,6 +3,7 @@ import "./RoundButton.scss";
 
 const RoundButton = (props) => {
   const { onClick, text } = props;
+
   return (
     <div onClick={onClick} className="roundButton">
       <div className="roundButtonCircle">
